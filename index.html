@@ -189,27 +189,37 @@
 </section>
 <!-- End paper abstract -->
 
-<!-- Paper. -->
-<div class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2>
-        <div class="center-image">
-          <figure>
-            <img src="static/images/pipeline.jpg" class="interpolation-image" alt="Interpolate start reference image." />
-            <figcaption>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Method<br></h2>
+      </div>
+      <br>
+      <div id="results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+         <center>
+          <img src="static/images/pipeline.jpg" alt="MY ALT TEXT" style="width: 1000px; height: auto;"/>
+         </center>
+         <h2 class="subtitle has-text-centered">
+           <strong>Overview of the proposed InterLCM framework.</strong> The Visual Module takes LQ images to output the visual embeddings.
+              A Spatial Encoder is used to provide structure information.
+              We consider the LQ image as the intermediate state of LCM.
+              Through standard LCM conditioned with both the visual embedding and spatial features, the LQ input can be reconstructed as a HQ image.
+         </h2>
+         <figcaption>
               <strong>Overview of the proposed InterLCM framework.</strong> The Visual Module takes LQ images to output the visual embeddings.
               A Spatial Encoder is used to provide structure information.
               We consider the LQ image as the intermediate state of LCM.
               Through standard LCM conditioned with both the visual embedding and spatial features, the LQ input can be reconstructed as a HQ image.
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
+         </figcaption>
+       </div>
   </div>
 </div>
+</div>
+</section>
 
 <!--&lt;!&ndash; Teaser video&ndash;&gt;-->
 <!--<section class="hero teaser">-->
